@@ -28,6 +28,11 @@ public Cercle () {
 	     this.y = cercle.y;
 	 }
 
+	 public String toString() {
+	    String tronk = "X: " + this.x + " Y: " + this.y;
+	    return tronk;
+	 }
+
 
 
 	 
